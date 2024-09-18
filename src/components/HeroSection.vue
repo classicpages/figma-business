@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 .hero-section {
-  background-color: #007bff;
+  background-color: Blue;
   color: white;
   padding: 20px;
 }
