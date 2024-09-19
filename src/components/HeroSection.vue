@@ -17,11 +17,17 @@
       </div>
       <div class="header-right">+233-257-732-425</div>
     </header>
+
     <div class="hero-content">
       <div class="hero-text">
         <h1>Legal Excellence, Personalized Service</h1>
         <button class="consultation-button">Request a free consultation</button>
+        <!-- New Image added here under the button -->
+        <div class="hero-frame">
+          <img src="/src/assets/Frame 3.png" alt="Frame Image" />
+        </div>
       </div>
+
       <div class="hero-image">
         <img src="/src/assets/1 1.png" alt="Hero Image" />
       </div>
@@ -40,6 +46,8 @@ export default {
   background-color: #002a7d;
   color: white;
   background-image: url(/src/assets/Rectangle\ 3.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .header {
@@ -52,33 +60,21 @@ export default {
 
 .alvin {
   color: #e63946;
-  width: 116px;
-  height: 43px;
-  font-family: 'Sora' sans-serif;
+  font-family: 'Sora', sans-serif;
   font-size: 34px;
   font-weight: 800;
-  line-height: 42.84px;
   letter-spacing: 0.04em;
-  text-align: left;
 }
 
 .header-left {
   font-size: 1.2rem;
   font-weight: bold;
-  width: 190px;
 }
 
 .asso {
-  width: 116px;
-  height: 18px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: 'Plus Jakarta Sans' sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 17.64px;
-  letter-spacing: 0.08em;
-  text-align: left;
 }
 
 .header-center {
@@ -88,10 +84,7 @@ export default {
 .contact {
   color: white;
   background-color: red;
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 20px;
+  padding: 10px 20px;
   border: none;
 }
 
@@ -101,11 +94,9 @@ export default {
   margin: 0;
   display: flex;
   gap: 15px;
-  height: 32px;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #2e294e;
 }
 
 .nav-list li {
@@ -131,13 +122,9 @@ export default {
 .hero-text h1 {
   margin-bottom: 20px;
   margin-left: 180px;
-  width: 896px;
-  height: 348px;
-  font-family: 'Plus Jakarta Sans' sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 92px;
   font-weight: 800;
-  line-height: 115.92px;
-  text-align: left;
   color: #ffffff;
 }
 
@@ -152,9 +139,15 @@ export default {
   cursor: pointer;
 }
 
+.hero-frame {
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
 .hero-image img {
   max-width: 100%;
   height: auto;
+  margin-right: 200px;
   border-radius: 10px;
 }
 
@@ -171,6 +164,10 @@ export default {
   .nav-list {
     flex-direction: column;
     gap: 10px;
+  }
+
+  .hero-image img {
+    margin-right: 0;
   }
 }
 
