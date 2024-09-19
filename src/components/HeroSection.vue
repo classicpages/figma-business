@@ -39,7 +39,7 @@ export default {
 .hero-section {
   background-color: #002a7d;
   color: white;
-  background-image: url(/src/assets/);
+  background-image: url(/src/assets/Rectangle\ 3.png);
 }
 
 .header {
@@ -47,7 +47,6 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
   color: black;
 }
 
