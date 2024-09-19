@@ -20,9 +20,8 @@
 
     <div class="hero-content">
       <div class="hero-text">
-        <h1>Legal Excellence, Personalized Service</h1>
+        <h1 class="legal">Legal Excellence, Personalized Service</h1>
         <button class="consultation-button">Request a free consultation</button>
-        <!-- New Image added here under the button -->
         <div class="hero-frame">
           <img src="/src/assets/Frame 3.png" alt="Frame Image" />
         </div>
@@ -43,11 +42,10 @@ export default {
 
 <style scoped>
 .hero-section {
-  background-color: #002a7d;
   color: white;
-  background-image: url(/src/assets/Rectangle\ 3.png);
   background-size: cover;
   background-position: center;
+  background-color: rgb(22, 22, 170);
 }
 
 .header {
@@ -63,7 +61,10 @@ export default {
   font-family: 'Sora', sans-serif;
   font-size: 34px;
   font-weight: 800;
-  letter-spacing: 0.04em;
+  line-height: 42.84px;
+  text-align: left;
+  width: 116px;
+  height: 43px;
 }
 
 .header-left {
@@ -75,6 +76,10 @@ export default {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 14px;
   font-weight: 700;
+  line-height: 17.64px;
+  text-align: left;
+  width: 116px;
+  height: 18px;
 }
 
 .header-center {
@@ -119,24 +124,31 @@ export default {
   flex: 1;
 }
 
-.hero-text h1 {
+.legal {
   margin-bottom: 20px;
   margin-left: 180px;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 92px;
   font-weight: 800;
   color: #ffffff;
+  width: 896px;
+  height: 348px;
+  font-size: 92px;
+  font-weight: 800;
+  line-height: 115.92px;
+  text-align: left;
 }
 
 .consultation-button {
   background-color: red;
   color: white;
-  padding: 20px 30px;
+  padding: 32px 48px;
   border: none;
   margin-left: 180px;
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 
 .hero-frame {
