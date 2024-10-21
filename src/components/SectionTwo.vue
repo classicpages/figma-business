@@ -36,7 +36,7 @@ export default {
 .section-two {
   display: flex;
   flex-wrap: wrap;
-  background-color: #007bff; /* Blue background */
+  background-color: #007bff;
   color: white;
   padding: 20px;
   justify-content: center;
@@ -56,6 +56,17 @@ h1 {
 p {
   font-size: 18px;
   margin-bottom: 20px;
+  width: 618px;
+  height: 396px;
+  top: 528px;
+  left: 65px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: 'Plus Jakarta Sans' sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
 }
 
 button {

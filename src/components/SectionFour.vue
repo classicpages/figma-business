@@ -6,6 +6,15 @@
     <!-- Images and Rectangles Section -->
     <div class="image-flex-container">
       <div class="image-box">
+        <img src="/src/assets/Mask group.png" alt="" />
+        <div class="box-row">
+          <div class="rectangle-box first-box">Car Accidents</div>
+          <div class="rectangle-box second-box">Truck Accidents</div>
+          <div class="rectangle-box third-box">Dangerous Drugs</div>
+        </div>
+      </div>
+
+      <div class="image-box">
         <img src="/src/assets/AdobeStock_86156608_Preview 1.png" alt="" />
         <div class="box-row">
           <div class="rectangle-box first-box">Car Accidents</div>
@@ -28,15 +37,6 @@
         <div class="box-row">
           <div class="rectangle-box first-box">Car Accidents</div>
           <div class="rectangle-box second-box">Truck Accidents</div>
-          <div class="rectangle-box third-box">Dangerous Drugs</div>
-        </div>
-      </div>
-
-      <div class="image-box">
-        <img src="/src/assets/Mask group.png" alt="" />
-        <div class="box-row">
-          <div class="rectangle-box first-box">Car Accidents</div>
-          <div class="rectangle-box second-box">Truck Accidents</div>
           <div class="rectangle-box third-box red-box">Dangerous Drugs</div>
         </div>
       </div>
@@ -50,13 +50,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
+  background-color: #002a7d;
   padding: 50px 20px;
 }
 
 /* Title styling */
 .section-title {
-  background-color: blue;
+  background-color: #002a7d;
   color: white;
   font-size: 36px;
   text-align: center;

@@ -30,7 +30,7 @@ export default {
 <style scoped>
 .section-three {
   position: relative;
-  background-color: blue;
+  background-color: #002a7d;
   padding: 40px 20px;
   display: flex;
   justify-content: center;
@@ -58,11 +58,12 @@ export default {
 }
 
 .overlay button {
-  background-color: transparent;
+  background-color: rgb(207, 70, 70);
   color: white;
   border: 2px solid white;
   padding: 10px 20px;
   cursor: pointer;
+  font-weight: 800;
   font-size: 24px;
 }
 
@@ -75,8 +76,7 @@ export default {
   padding: 20px;
 }
 
-.left-divs,
-.right-divs {
+.left-divs .right-divs {
   display: block;
 }
 

@@ -15,7 +15,7 @@
           <button class="contact"><li>Contact Us</li></button>
         </ul>
       </div>
-      <div class="header-right">+233-257-732-425</div>
+      <div class="header-right">(+233)257732-425</div>
     </header>
 
     <div class="hero-content">
@@ -126,14 +126,13 @@ export default {
 
 .legal {
   margin-bottom: 20px;
-  margin-left: 180px;
+  margin-left: 190px;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 92px;
-  font-weight: 800;
   color: #ffffff;
+  font-size: 92px;
   width: 896px;
   height: 348px;
-  font-size: 92px;
   font-weight: 800;
   line-height: 115.92px;
   text-align: left;
@@ -143,8 +142,8 @@ export default {
   background-color: red;
   color: white;
   padding: 32px 48px;
+  margin-left: 190px;
   border: none;
-  margin-left: 180px;
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
@@ -152,14 +151,22 @@ export default {
 }
 
 .hero-frame {
-  margin-left: 180px;
   margin-top: 20px;
+  width: (590.25px);
+  height: (113px);
+  padding: 20px 0px 20px 0px;
+  gap: 48px;
+  margin-left: 50px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 0.6px;
 }
 
 .hero-image img {
   max-width: 100%;
   height: auto;
-  margin-right: 200px;
+  margin-right: 00px;
+  width: 792px;
+  height: 500px;
   border-radius: 10px;
 }
 
