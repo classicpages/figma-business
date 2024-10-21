@@ -3,6 +3,9 @@ import HeroSection from '@/components/HeroSection.vue'
 import SectionTwo from '@/components/SectionTwo.vue'
 import SectionThree from '@/components/SectionThree.vue'
 import SectionFour from '@/components/SectionFour.vue'
+import SectionFive from '@/components/SectionFive.vue'
+import SectionSix from '@/components/SectionSix.vue'
+import SectionSeven from '@/components/SectionSeven.vue'
 </script>
 
 <template>
@@ -11,5 +14,8 @@ import SectionFour from '@/components/SectionFour.vue'
     <SectionTwo />
     <SectionThree />
     <SectionFour />
+    <SectionFive />
+    <SectionSix />
+    <SectionSeven />
   </main>
 </template>
