@@ -54,6 +54,8 @@ export default {
   justify-content: space-between;
   align-items: center;
   color: black;
+  padding: 10px 20px; /* Added padding for better spacing */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
 }
 
 .alvin {
@@ -61,10 +63,6 @@ export default {
   font-family: 'Sora', sans-serif;
   font-size: 34px;
   font-weight: 800;
-  line-height: 42.84px;
-  text-align: left;
-  width: 116px;
-  height: 43px;
 }
 
 .header-left {
@@ -76,10 +74,6 @@ export default {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 17.64px;
-  text-align: left;
-  width: 116px;
-  height: 18px;
 }
 
 .header-center {
@@ -91,6 +85,7 @@ export default {
   background-color: red;
   padding: 10px 20px;
   border: none;
+  border-radius: 5px; /* Added border radius for button */
 }
 
 .nav-list {
@@ -118,55 +113,56 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .hero-text {
   flex: 1;
+  min-width: 300px;
+  max-width: 600px; /* Adjusted max width for better layout */
+  margin-right: 20px; /* Added margin for spacing */
 }
 
 .legal {
   margin-bottom: 20px;
-  margin-left: 190px;
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 92px;
+  font-size: clamp(2.5rem, 5vw, 4rem); /* Responsive scaling */
   color: #ffffff;
-  font-size: 92px;
-  width: 896px;
-  height: 348px;
   font-weight: 800;
-  line-height: 115.92px;
+  line-height: 1.2;
   text-align: left;
 }
 
 .consultation-button {
   background-color: red;
   color: white;
-  padding: 32px 48px;
-  margin-left: 190px;
+  padding: 16px 32px; /* Adjusted padding for better size */
   border: none;
-  border-radius: 5px;
-  font-size: 1rem;
+  border-radius: 10px;
+  font-size: clamp(1rem, 2.5vw, 1.2rem); /* Responsive font scaling */
   cursor: pointer;
-  margin-bottom: 50px;
+  margin-bottom: 20px; /* Reduced margin for compactness */
 }
 
 .hero-frame {
   margin-top: 20px;
-  width: (590.25px);
-  height: (113px);
-  padding: 20px 0px 20px 0px;
+  width: 100%;
+  max-width: 590px;
+  padding: 20px 0;
   gap: 48px;
-  margin-left: 50px;
   border-radius: 10px 10px 0px 0px;
-  opacity: 0.6px;
+  opacity: 0.6;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: right; /* Align the image to the right */
 }
 
 .hero-image img {
   max-width: 100%;
   height: auto;
-  margin-right: 00px;
-  width: 792px;
-  height: 500px;
   border-radius: 10px;
 }
 
@@ -177,30 +173,26 @@ export default {
   }
 
   .hero-text {
-    margin-bottom: 20px;
+    margin-right: 0; /* Remove margin for smaller screens */
   }
 
   .nav-list {
     flex-direction: column;
     gap: 10px;
   }
-
-  .hero-image img {
-    margin-right: 0;
-  }
 }
 
 @media (min-width: 481px) and (max-width: 1440px) {
   .hero-text h1 {
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 5vw, 2.5rem); /* Responsive font scaling */
   }
 
   .consultation-button {
-    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
   }
 
   .hero-content {
-    padding: 10px;
+    padding: 20px;
   }
 }
 </style>
